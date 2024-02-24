@@ -44,7 +44,6 @@ class CalculadoraMatriz {
 class NavegadorEstelar {
     public static void main(String[] args) {
         Terreno terreno = new Terreno(5, 5);
-        // Supongamos que modificamos el terreno para representar diferentes áreas
         terreno.modificarTerreno(2, 2, 1); // Ejemplo de modificación
 
         System.out.println("Terreno inicial:");
