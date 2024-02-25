@@ -1,7 +1,7 @@
 package org.example;
 import java.util.ArrayList;
 import java.util.List;
-class Recurso {
+public class Recurso {
     private String nombre;
     private double cantidadActual;
     private double consumoDiarioPromedio;
@@ -39,7 +39,7 @@ class Recurso {
     }
 }
 
-class GestorDeRecursos {
+public class GestorDeRecursos {
     private List<Recurso> recursos = new ArrayList<>();
 
     public void agregarRecurso(Recurso recurso) {

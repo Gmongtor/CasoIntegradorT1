@@ -2,7 +2,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-class FactorCritico {
+public class FactorCritico {
     private String nombre;
     private double valorActual;
     private double valorMinimo;
@@ -33,7 +33,7 @@ class FactorCritico {
 
 }
 
-class SistemaMonitoreo {
+public class SistemaMonitoreo {
     private List<FactorCritico> factoresCriticos = new ArrayList<>();
 
     public void agregarFactorCritico(FactorCritico factor) {
@@ -60,7 +60,7 @@ class SistemaMonitoreo {
         }
     }
 
-    private boolean esPrimo(int numero) {
+    public boolean esPrimo(int numero) {
         if (numero <= 1) {
             return false;
         }

@@ -55,7 +55,7 @@ class Planeta {
     }
 }
 // Ruta.java
-class Ruta {
+public class Ruta {
     private static final char PUNTO_RUTA = '7';
     private char[][] matrizRuta;
 
@@ -92,7 +92,7 @@ class Ruta {
     }
 }
 // PlanificadorRutas.java
-class PlanificadorRutas {
+public class PlanificadorRutas {
     public static char[][] planificarRutaOptima(char[][] terreno) {
         // Aquí se implementaría el algoritmo de planificación de rutas
         // Este código es un placeholder y debe ser reemplazado por la lógica real

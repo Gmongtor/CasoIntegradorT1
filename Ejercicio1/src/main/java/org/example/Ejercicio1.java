@@ -15,7 +15,7 @@ public class Ejercicio1 {
         displayMaxValues();
     }
 
-    private static void displayTimeOnEarth(double timeInSeconds) {
+    public static void displayTimeOnEarth(double timeInSeconds) {
         double years = timeInSeconds / EARTH_SECONDS_IN_YEAR;
         double days = years * 365;
         double hours = days * 24;

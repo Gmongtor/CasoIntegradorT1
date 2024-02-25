@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-class Tarea {
+public class Tarea {
     String nombre;
     int cargaTrabajo;
 
@@ -21,7 +21,7 @@ class Tarea {
         return cargaTrabajo;
     }
 }
-class MiembroDeTripulacion {
+public class MiembroDeTripulacion {
     String nombre;
     double[] habilidades;
 
@@ -41,7 +41,7 @@ class MiembroDeTripulacion {
 }
 
 
-class PlanificadorDeTareas {
+public class PlanificadorDeTareas {
     List<Tarea> tareas = new ArrayList<>();
     List<MiembroDeTripulacion> tripulacion = new ArrayList<>();
 

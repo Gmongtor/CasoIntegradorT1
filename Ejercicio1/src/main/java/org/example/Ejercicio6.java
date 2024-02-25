@@ -1,6 +1,6 @@
 package org.example;
 
-class ComunicadorInterplanetario {
+public class ComunicadorInterplanetario {
 
     // Función para contar vocales en un mensaje
     public static int contarVocales(String mensaje) {
