@@ -1,4 +1,5 @@
 
+import org.example.Ejercicio6;
 import org.example.Ruta;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -96,17 +97,17 @@ public class TestEjercicio {
     class Ejercicio6Test {
         @Test
         void testContarVocales() {
-            assertEquals(3, org.example.ComunicadorInterplanetario.contarVocales("Tengo hambre")); // Esperamos 3 porque el mensaje tiene 3 vocales
+            assertEquals(3, Ejercicio6.contarVocales("Tengo hambre")); // Esperamos 3 porque el mensaje tiene 3 vocales
         }
 
         @Test
         void testInvertirMensaje() {
-            assertEquals("erbmah ogneT", org.example.ComunicadorInterplanetario.invertirMensaje("Tengo hambre")); // Esperamos "erbmah ogneT" porque el mensaje invertido es "erbmah ogneT"
+            assertEquals("erbmah ogneT", Ejercicio6.invertirMensaje("Tengo hambre")); // Esperamos "erbmah ogneT" porque el mensaje invertido es "erbmah ogneT"
         }
 
         @Test
         void testEsPalindromo() {
-            assertTrue(org.example.ComunicadorInterplanetario.esPalindromo("Anita lava la tina")); // Esperamos true porque el mensaje es un palíndromo
+            assertTrue(Ejercicio6.esPalindromo("Anita lava la tina")); // Esperamos true porque el mensaje es un palíndromo
         }
     }
 }

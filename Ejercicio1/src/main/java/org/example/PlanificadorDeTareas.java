@@ -3,44 +3,6 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tarea {
-    String nombre;
-    int cargaTrabajo;
-
-    public Tarea(String nombre, int cargaTrabajo) {
-        this.nombre = nombre;
-        this.cargaTrabajo = cargaTrabajo;
-    }
-
-    // Getters y Setters
-    public String getNombre() {
-        return nombre;
-    }
-
-    public int getCargaTrabajo() {
-        return cargaTrabajo;
-    }
-}
-public class MiembroDeTripulacion {
-    String nombre;
-    double[] habilidades;
-
-    public MiembroDeTripulacion(String nombre, double[] habilidades) {
-        this.nombre = nombre;
-        this.habilidades = habilidades;
-    }
-
-    // Getters y Setters
-    public String getNombre() {
-        return nombre;
-    }
-
-    public double[] getHabilidades() {
-        return habilidades;
-    }
-}
-
-
 public class PlanificadorDeTareas {
     List<Tarea> tareas = new ArrayList<>();
     List<MiembroDeTripulacion> tripulacion = new ArrayList<>();
@@ -80,6 +42,3 @@ public class PlanificadorDeTareas {
         planificador.asignarTareas();
     }
 }
-
-
-
